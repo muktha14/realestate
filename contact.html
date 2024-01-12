@@ -374,7 +374,15 @@
                        <p>Find out how to find us from your current location</p>
                     </div><!-- /.about-heading-content -->
                     <div class="map-content">
-                        <iframe height="550" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC871wKM6aoCLSV_pT3xBVsYzNGXaDh7Pw&q=121King+St,Melbourne+VIC+3000,Australia" allowfullscreen="allowfullscreen"></iframe>
+                        <iframe
+                        width="600"
+                        height="450"
+                        frameborder="0"
+                        style="border:0"
+                        src="https://maps.google.com/maps?q=12.879012,77.655527&output=embed"
+                        allowfullscreen
+                        ></iframe>
+
                     </div><!-- /.map-content -->
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
@@ -519,6 +527,23 @@
     ================================================== --> 
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script> <!-- main-js -->
+    <script src="assets/js/main.js"></script> 
+    <!-- Custom Marker for Office -->
+    <script>
+        function initMap() {
+        var companyLocation = { lat: 12.879012, lng: 77.655527 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: companyLocation,
+            zoom: 15
+        });
+    
+        var marker = new google.maps.Marker({
+            position: companyLocation,
+            map: map,
+            title: 'hhhhhh', // Replace with your company name
+            icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png' // Red marker icon
+        });
+        }
+    </script>
 </body>
 </html>
