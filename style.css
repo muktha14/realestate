@@ -76,12 +76,12 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: F8B500;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.45em;
-  color: #4b4b4b;
+  color: 007B7F;
 }
 
 /*--------------------------------------------------------------
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: "Playfair Display", serif;
   line-height: 1.4em;
-  color: #f30930;
+  color: 007B7F;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
@@ -133,7 +133,7 @@ h2 a,
 h3 a,
 h4 a,
 h5 a {
-  color: black;
+  color: 007B7F;
   text-decoration: none;
 }
 
@@ -146,7 +146,7 @@ h4 a:hover {
 }
 
 .heading-content-one {
-  color: #0e385d;
+  color: 007B7F;
   margin: auto;
   text-align: center;
   margin-bottom: 60px;
@@ -186,7 +186,7 @@ h4 a:hover {
 .heading-content-one.border h2.title:before {
   position: absolute;
   content: "";
-  background-color: #969696;
+  background-color: F8B500;
   width: 105px;
   height: 1px;
   bottom: -15px;
@@ -197,7 +197,7 @@ h4 a:hover {
 }
 
 .heading-content-two {
-  color: #0e385d;
+  color: 007B7F;
   margin: auto;
   text-align: center;
   font-weight: bold;
@@ -236,7 +236,7 @@ h4 a:hover {
   color: inherit;
   position: relative;
   font-weight: bold;
-  color: #0e385d;
+  color: 007B7F;
   margin-top: 10px;
 }
 .heading-content-three h5.sub-title {
@@ -244,7 +244,7 @@ h4 a:hover {
   font-size: 22px;
   color: inherit;
   font-weight: 600;
-  color: #20527e;
+  color: 007B7F;
 }
 .heading-content-three h5.sub-title span {
   font-weight: bold;
@@ -253,7 +253,7 @@ h4 a:hover {
 }
 
 .heading-content-four {
-  color: #0e385d;
+  color: 007B7F;
 }
 .heading-content-four h2.title {
   font-size: 60px;
@@ -277,12 +277,12 @@ h4 a:hover {
   line-height: 1em;
 }
 .section-title-area .section-description {
-  color: #999;
+  color: 007B7F;
   margin-bottom: 0;
 }
 
 .page-header .page-title {
-  color: #fff;
+  color: 007B7F;
   font-weight: bold;
   font-family: inherit;
   font-size: 45px;
@@ -291,7 +291,7 @@ h4 a:hover {
   margin-top: 0;
 }
 .page-header .page-description {
-  color: #000;
+  color: 007B7F;
   font-weight: bold;
   letter-spacing: 0.015em;
   margin-bottom: 0;
@@ -347,7 +347,7 @@ abbr, acronym {
 }
 
 mark, ins {
-  background: #fff9c0;
+  background: F8B500;
   text-decoration: none;
 }
 
@@ -360,7 +360,7 @@ big {
 }
 
 pre {
-  background: #f7f7f7;
+  background: F8B500;
   padding: 20px 30px;
   margin-bottom: 30px;
   max-width: 100%;
@@ -380,14 +380,14 @@ pre {
   margin: 15px 5px 0 0;
   font-weight: bold;
   font-size: 60px;
-  color: #ccc;
+  color: 007B7F;
 }
 
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
 body {
-  background: white;
+  background: F8B500;
   /* Fallback for when there is no custom background color defined. */
   word-wrap: break-word;
   overflow-x: hidden;
@@ -408,7 +408,7 @@ blockquote {
   font-size: 16px;
   position: relative;
   border-left: 5px solid #9bc6b2;
-  color: #939292;
+  color: 007B7F;
 }
 blockquote:before {
   content: "";
@@ -417,7 +417,7 @@ blockquote:before {
   width: 40px;
   line-height: 40px;
   border-radius: 50%;
-  background: #9bc6b2;
+  background: F8B500;
   color: white !important;
   text-align: center;
   left: -22px;
@@ -429,7 +429,7 @@ blockquote:before {
   font-size: 15px;
 }
 blockquote:after {
-  background: #9bc6b2;
+  background: F8B500;
   bottom: 0;
   content: "";
   height: 5px;
@@ -537,7 +537,7 @@ td {
 .post table tbody tr.odd,
 .page table tbody tr.odd,
 #comments table tbody tr.odd {
-  background: white;
+  background: 007B7F;
 }
 .post table th, .post table td,
 .post table td,
@@ -600,23 +600,23 @@ td {
 }
 
 .bg-gray-color {
-  background-color: #F7F7F7;
+  background-color: 007B7F;
 }
 
 .bg-white-color {
-  background-color: #fff;
+  background-color: 007B7F;
 }
 
 .yellow-color {
-  color: #fca22a;
+  color: #25fa09;
 }
 
 .nevy-blue-bg {
-  background: #0e385d;
+  background: 007B7F;
 }
 
 .bg-white-smoke {
-  background-color: #f8f8f8;
+  background-color: 007B7F;
 }
 
 .bg-nero {
@@ -624,11 +624,11 @@ td {
 }
 
 .bg-green {
-  background: #b3ff01;
+  background: 007B7F;
 }
 
 .text-green {
-  color: #21b75f;
+  color: 007B7F;
 }
 
 .default-text-gradient {
@@ -3445,12 +3445,12 @@ Sign In/Sign Up Pop up
 .slider-text-content {
   clear: both;
   overflow: hidden;
-  color: #fff;
+  color: 007B7F;
   text-align: center;
 }
 .slider-text-content h3 {
   font-size: 24px;
-  color: #fff;
+  color: 007B7F;
 }
 @media screen and (max-width: 536px) {
   .slider-text-content h3 {
@@ -3458,7 +3458,7 @@ Sign In/Sign Up Pop up
   }
 }
 .slider-text-content h2 {
-  color: #fff;
+  color: 007B7F;
   font-size: 90px;
   margin-top: 0;
   margin-bottom: 30px;
